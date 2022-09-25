@@ -18,7 +18,7 @@ import java.time.LocalDateTime;
 @ToString
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
-public class AuditingFields {
+public abstract class AuditingFields {
 
     //최소의 insert시 자동으로 넣어준다.
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
