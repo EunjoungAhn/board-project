@@ -1,8 +1,7 @@
-package com.facstcampus.projectboard.response;
+package com.facstcampus.projectboard.dto.response;
 
 import com.facstcampus.projectboard.dto.ArticleDto;
 
-import java.io.Serializable;
 import java.time.LocalDateTime;
 
 public record ArticleResponse(
