@@ -7,6 +7,8 @@ import lombok.ToString;
 import javax.persistence.*;
 import java.util.Objects;
 
+import static com.facstcampus.projectboard.domain.QUserAccount.userAccount;
+
 @Getter
 @ToString
 @Table(indexes = {
@@ -46,12 +48,12 @@ public class UserAccount extends AuditingFields {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof UserAccount that)) return false;
-        return this.getUserId() != null && this.getUserId().equals(that.getUserId());
+        return userId != null && userId.equals(userAccount.userId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(this.getUserId());
+        return Objects.hash(userId);
     }
 
 }
