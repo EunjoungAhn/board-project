@@ -4,6 +4,8 @@
 
 이 서비스는 [패스트캠퍼스](https://fastcampus.co.kr/)의 [10개 프로젝트로 완성하는 백엔드 웹개발(Java/Spring) 초격차 패키지 Online](https://fastcampus.co.kr/dev_online_befinal) 강의의 강의용 프로젝트로 사용되었습니다.
 
+* 오류사항: 해시태그 Dto 및 DB 테이블 미생성으로 인한 해시태그 관련 기능이 작동하지 않습니다.
+
 ## 개발 환경
 
 * Intellij IDEA Ultimate 2022.2.1
